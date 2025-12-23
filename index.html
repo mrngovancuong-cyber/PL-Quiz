@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Premier League Quiz Master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Quicksand', 'sans-serif'],
+            },
+            colors: {
+              pl: {
+                purple: '#3d195d',
+                dark: '#38003c',
+                green: '#00ff85',
+                pink: '#ff0050',
+                blue: '#04f5ff'
+              }
+            },
+            animation: {
+              'bounce-slow': 'bounce 3s infinite',
+              'pulse-fast': 'pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #38003c;
+        color: white;
+        overflow: hidden; /* Prevent scrolling on mobile */
+      }
+      .glass-panel {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .pitch-bg {
+        background-image: 
+          repeating-linear-gradient(90deg, transparent, transparent 50px, rgba(255,255,255,0.03) 50px, rgba(255,255,255,0.03) 100px);
+      }
+
+      /* Penalty Kick Animation Styles */
+      :root {
+          --target-x: -30px;
+          --target-y: -110px; 
+      }
+
+      .soccer-animation {
+          position: relative;
+          width: 320px;
+          height: 240px;
+          margin: 0 auto 1rem auto;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .goal-post {
+          position: absolute;
+          bottom: 75px; 
+          width: 220px;
+          height: 100px;
+          border: 6px solid white;
+          border-bottom: none;
+          background: rgba(255,255,255,0.05);
+          border-radius: 4px 4px 0 0;
+          z-index: 1;
+          /* Animation controlled by JS now */
+      }
+
+      .goal-net {
+          width: 100%;
+          height: 100%;
+          background-image: 
+              linear-gradient(45deg, rgba(255,255,255,0.05) 25%, transparent 25%),
+              linear-gradient(-45deg, rgba(255,255,255,0.05) 25%, transparent 25%);
+          background-size: 6px 6px;
+      }
+
+      .penalty-spot {
+          position: absolute;
+          bottom: 0px; 
+          width: 16px;
+          height: 8px;
+          background: rgba(255,255,255,0.5);
+          border-radius: 50%;
+      }
+
+      .ball-kick {
+          position: absolute;
+          bottom: 0px; 
+          font-size: 34px;
+          z-index: 10;
+          filter: drop-shadow(0 8px 4px rgba(0,0,0,0.3));
+          /* Animation is now controlled via JS to support random paths */
+          transform-origin: center;
+          opacity: 0;
+      }
+
+      @keyframes penaltyKickSequence {
+          0% { transform: translate(0, 0) scale(1) rotate(0deg); opacity: 0; }
+          5% { opacity: 1; }
+          10% { transform: translate(0, 0) scale(1) rotate(0deg); } 
+          22% { transform: translate(var(--target-x), var(--target-y)) scale(0.6) rotate(360deg); }
+          24% { transform: translate(calc(var(--target-x) * 1.05), calc(var(--target-y) + 3px)) scale(0.6) rotate(380deg); }
+          30% { transform: translate(calc(var(--target-x) + 3px), -60px) scale(0.6) rotate(540deg); }
+          36% { transform: translate(calc(var(--target-x) + 8px), -60px) scale(0.6) rotate(600deg); opacity: 1; }
+          45% { transform: translate(calc(var(--target-x) + 8px), -60px) scale(0.6) rotate(600deg); opacity: 1; }
+          50% { transform: translate(calc(var(--target-x) + 8px), -60px) scale(0.6) rotate(600deg); opacity: 0; }
+          100% { transform: translate(calc(var(--target-x) + 8px), -60px) scale(0.6) rotate(600deg); opacity: 0; }
+      }
+
+      @keyframes netShake {
+          0%, 100% { transform: scale(1); }
+          30% { transform: scale(1.04, 0.95); }
+          60% { transform: scale(0.98, 1.02); }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "canvas-confetti": "https://esm.sh/canvas-confetti@^1.9.4"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
