@@ -213,7 +213,7 @@ export const QUESTION_BANK: QuestionBank = {
       { id: "10-4", q: "Thủ môn duy nhất ghi bàn trực tiếp từ một tình huống phạt góc?", a: ["Begovic", "Schmeichel", "Alisson Becker", "Friedel"], c: 2, p: "70" },
       { id: "10-5", q: "HLV nhận nhiều giải 'HLV của tháng' nhất lịch sử (27 lần)?", a: ["Wenger", "Alex Ferguson", "Guardiola", "Moyes"], c: 1, p: "70" },
       { id: "10-6", q: "CLB Man City giành được bao nhiêu danh hiệu PL liên tiếp?", a: ["2", "3", "4", "5"], c: 2, p: "70" },
-      { id: "10-7", q: "Cầu thủ giữ kỷ lục thi đấu cho nhiều CLB tại Premier League nhất (8 đội bóng)?", a: ["Peter Crouch", "Marcus Bent", "Nicolas Anelka", "Craig Bellamy"], c: 1, p: "70" }
+      { id: "10-7", q: "Cầu thủ giữ kỷ lục thi đấu cho nhiều CLB tại Premier League nhất (8 đội bóng)?", a: ["Peter Crouch", "Marcus Bent", "Nicolas Anelka", "Craig Bellamy"], c: 1, p: "70" },
       { id: "10-8", q: "Ai là cầu thủ đầu tiên ghi bàn trong mọi phút từ 1 đến 90 tại PL?", a: ["Ronaldo", "Matt Le Tissier", "Rooney", "Chưa có ai"], c: 3, p: "70" },
       { id: "10-9", q: "CLB giữ kỷ lục thua nhiều trận liên tiếp nhất tại PL (20 trận)?", a: ["Derby County", "Sunderland", "Norwich", "Sheffield Utd"], c: 1, p: "70" },
       { id: "10-10", q: "Mùa giải Shearer lập kỷ lục 5 hat-trick, ông đá cho đội nào?", a: ["Blackburn", "Newcastle", "Southampton", "Leicester"], c: 0, p: "70" },
