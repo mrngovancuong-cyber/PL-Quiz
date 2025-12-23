@@ -50,7 +50,7 @@ export const QUESTION_BANK: QuestionBank = {
       { id: "2-17", q: "Thủ môn nào giữ kỷ lục sạch lưới nhiều nhất lịch sử (202 trận)?", a: ["Schmeichel", "Cech", "Van der Sar", "De Gea"], c: 1, p: "2" },
       { id: "2-18", q: "D. Beckham nổi tiếng nhất với kỹ năng nào?", a: ["Tốc độ", "Đánh đầu", "Tạt bóng", "Xoạc bóng"], c: 2, p: "2" },
       { id: "2-19", q: "Cầu thủ nào có màn ăn mừng kiểu 'Siu'?", a: ["Garnacho", "Ronaldo", "Rashford", "Saka"], c: 1, p: "2" },
-      { id: "2-20", q: "Biệt danh của CLB Tottenham Hotspur là gì?", a: ["Gà trống", "Pháo thủ", "Đại bàng", "Mèo đen"], c: 0, p: "2" }
+      { id: "2-20", q: "Biệt danh của CLB Tottenham Hotspur là gì?", a: ["Gà trống", "Pháo thủ", "Đại bàng", "Mèo đen"], c: 0, p: "2" },
 ],
   3: [
       { id: "3-1", q: "HLV nào đã dẫn dắt Man Utd giành cú ăn ba năm 1999?", a: ["Busby", "Ferguson", "Moyes", "Ten Hag"], c: 1, p: "4" },
@@ -72,7 +72,7 @@ export const QUESTION_BANK: QuestionBank = {
       { id: "3-17", q: "Biệt danh của CLB Wolverhampton Wanderers là gì?", a: ["Bầy sói", "Bầy cáo", "Những chú đại bàng", "Những chú hổ"], c: 0, p: "4" },
       { id: "3-18", q: "Trận 'Derby Đông Bắc' là cuộc đối đầu giữa Newcastle và đội nào?", a: ["Everton", "Sunderland", "Middlesbrough", "Leeds"], c: 1, p: "4" },
       { id: "3-19", q: "Cầu thủ nào có biệt danh 'Voi rừng'?", a: ["Drogba", "Eto'o", "Zaha", "Pepe"], c: 0, p: "4" },
-      { id: "3-20", q: "HLV Pep Guardiola đã giành được bao nhiêu chức vô địch PL tính đến 2024?", a: ["4", "5", "6", "3"], c: 2, p: "4" }
+      { id: "3-20", q: "HLV Pep Guardiola đã giành được bao nhiêu chức vô địch PL tính đến 2024?", a: ["4", "5", "6", "3"], c: 2, p: "4" },
   ],
   4: [
       { id: "4-1", q: "Đội bóng 'Bất bại' (The Invincibles) mùa 2003/04?", a: ["Man Utd", "Chelsea", "Arsenal", "Liverpool"], c: 2, p: "6" },
@@ -116,7 +116,7 @@ export const QUESTION_BANK: QuestionBank = {
       { id: "5-17", q: "Cầu thủ ghi nhiều bàn thắng nhất bằng đầu lịch sử PL?", a: ["Peter Crouch", "Duncan Ferguson", "Oliver Giroud", "Christian Benteke"], c: 0, p: "10" },
       { id: "5-18", q: "HLV Carlo Ancelotti từng vô địch PL cùng đội bóng nào?", a: ["Everton", "Chelsea", "Man City", "Man Utd"], c: 1, p: "10" },
       { id: "5-19", q: "CLB nào biệt hiệu là 'những chú đại bàng'?", a: ["Crystal Palace", "West Ham", "Millwall", "Charlton"], c: 0, p: "10" },
-      { id: "5-20", q: "Cầu thủ kiến tạo nhiều nhất lịch sử (162 kiến tạo)?", a: ["Cesc Fabregas", "Frank Lampard", "Ryan Giggs", "Wayne Rooney"], c: 2, p: "10" }
+      { id: "5-20", q: "Cầu thủ kiến tạo nhiều nhất lịch sử (162 kiến tạo)?", a: ["Cesc Fabregas", "Frank Lampard", "Ryan Giggs", "Wayne Rooney"], c: 2, p: "10" },
   ],
   6: [
       { id: "6-1", q: "Đội duy nhất đạt cột mốc 100 điểm trong một mùa giải?", a: ["Liverpool", "Chelsea", "Man City", "Arsenal"], c: 2, p: "15" },
@@ -138,7 +138,7 @@ export const QUESTION_BANK: QuestionBank = {
       { id: "6-17", q: "Cầu thủ có số lần vào sân thay người rồi ghi bàn nhiều nhất (24 bàn)?", a: ["Solskjaer", "Jermain Defoe", "Olivier Giroud", "Nwankwo Kanu"], c: 1, p: "15" },
       { id: "6-18", q: "Ai đoạt Quả bóng vàng 2024?", a: ["Vinicius", "Rodri", "Bellingham", "Haaland"], c: 1, p: "15" },
       { id: "6-19", q: "Cầu thủ từng đá cho cả 3 CLB: Liverpool, Real Madrid và Man Utd?", a: ["David Beckham", "Michael Owen", "Cristiano Ronaldo", "Steve McManaman"], c: 1, p: "15" },
-      { id: "6-20", q: "Đội bóng nào được mệnh danh là 'Những chú thiên nga'?", a: ["Swansea", "Cardiff", "Everton", "Watford"], c: 0, p: "15" }
+      { id: "6-20", q: "Đội bóng nào được mệnh danh là 'Những chú thiên nga'?", a: ["Swansea", "Cardiff", "Everton", "Watford"], c: 0, p: "15" },
 ],
   7: [
       { id: "7-1", q: "Trận Derby Bắc London là cuộc đối đầu giữa Arsenal và đội nào?", a: ["Chelsea", "Tottenham", "West Ham", "Crystal Palace"], c: 1, p: "25" },
@@ -160,7 +160,7 @@ export const QUESTION_BANK: QuestionBank = {
       { id: "7-17", q: "Ai ghi bàn, kiến tạo và phản lưới trong cùng 1 trận đấu?", a: ["Gareth Bale", "Wayne Rooney", "Kevin Davies", "Cả 3 người trên"], c: 3, p: "25" },
       { id: "7-18", q: "Cầu thủ nào có biệt danh 'thần chết'?", a: ["René Higuita", "Aaron Ramsey", "Lee Cattermole", "Hulk"], c: 1, p: "25" },
       { id: "7-19", q: "Cầu thủ ghi bàn nhiều nhất lịch sử Man City tại PL?", a: ["Sergio Aguero", "Sterling", "De Bruyne", "Yaya Toure"], c: 0, p: "25" },
-      { id: "7-20", q: "Sân vận động của CLB Sheffield United tên là gì?", a: ["Hillsborough", "Bramall Lane", "Elland Road", "Turf Moor"], c: 1, p: "25" }
+      { id: "7-20", q: "Sân vận động của CLB Sheffield United tên là gì?", a: ["Hillsborough", "Bramall Lane", "Elland Road", "Turf Moor"], c: 1, p: "25" },
   ],
   8: [
       { id: "8-1", q: "Bản hợp đồng đắt giá nhất lịch sử Arsenal tính đến hết mùa 23/24?", a: ["Nicolas Pepe", "Declan Rice", "Kai Havertz", "Bukayo Saka"], c: 1, p: "35" },
@@ -182,11 +182,11 @@ export const QUESTION_BANK: QuestionBank = {
       { id: "8-17", q: "Ai là HLV dẫn dắt nhiều trận nhất lịch sử Premier League (828 trận)?", a: ["Alex Ferguson", "Arsene Wenger", "Harry Redknapp", "David Moyes"], c: 1, p: "35" },
       { id: "8-18", q: "Đội bóng nào có sân nhà tên là King Power?", a: ["Leicester City", "Reading", "Derby", "Hull City"], c: 0, p: "35" },
       { id: "8-19", q: "Cầu thủ có số trận hòa nhiều nhất lịch sử giải đấu?", a: ["Gareth Barry", "James Milner", "Frank Lampard", "Ryan Giggs"], c: 0, p: "35" },
-      { id: "8-20", q: "Bàn thắng thứ 20.000 của Premier League được ghi bởi ai?", a: ["Marc Albrighton", "Moritz Volz", "Zlatan Ibrahimovic", "Les Ferdinand"], c: 0, p: "35" }
+      { id: "8-20", q: "Bàn thắng thứ 20.000 của Premier League được ghi bởi ai?", a: ["Marc Albrighton", "Moritz Volz", "Zlatan Ibrahimovic", "Les Ferdinand"], c: 0, p: "35" },
   ],
   9: [
       { id: "9-1", q: "Mùa giải Premier League đầu tiên (1992/93) có bao nhiêu đội?", a: ["18", "20", "22", "24"], c: 2, p: "50" },
-      { id: "9-2", q: "Thủ môn giữ kỷ lục cản phá nhiều quả phạt đền nhất lịch sử Premier League (13 lần)?", a: ["David James", "Petr Cech", "Shay Given", "Robert Green"], c: 0, p: "50" }
+      { id: "9-2", q: "Thủ môn giữ kỷ lục cản phá nhiều quả phạt đền nhất lịch sử Premier League (13 lần)?", a: ["David James", "Petr Cech", "Shay Given", "Robert Green"], c: 0, p: "50" },
       { id: "9-3", q: "Cầu thủ nước ngoài đầu tiên đạt mốc 100 bàn thắng?", a: ["Henry", "Cantona", "Van Nistelrooy", "Dwight Yorke"], c: 3, p: "50" },
       { id: "9-4", q: "CLB giữ kỷ lục thắng nhiều trận nhất một mùa (32 trận)?", a: ["Liverpool", "Man City", "Cả 2 đội trên", "Chelsea"], c: 2, p: "50" },
       { id: "9-5", q: "Thủ môn giữ kỷ lục sạch lưới liên tiếp lâu nhất PL (1.311 phút)?", a: ["Cech", "Edwin van der Sar", "Reina", "De Gea"], c: 1, p: "50" },
@@ -196,15 +196,15 @@ export const QUESTION_BANK: QuestionBank = {
       { id: "9-9", q: "Hệ thống VAR (Video Hỗ trợ Trọng tài) lần đầu được áp dụng tại PL mùa nào?", a: ["18/19", "19/20", "20/21", "21/22"], c: 1, p: "50" },
       { id: "9-10", q: "Cầu thủ ghi nhiều bàn nhất mà không có quả penalty nào?", a: ["Les Ferdinand", "Andrew Cole", "Mane", "Crouch"], c: 1, p: "50" },
       { id: "9-11", q: "Thủ môn duy nhất ghi bàn từ đá phạt trực tiếp ở PL?", a: ["Schmeichel", "Begovic", "Paul Robinson", "Brad Friedel"], c: 2, p: "50" },
-      { id: "9-12", q: "Hậu vệ ghi nhiều bàn thắng nhất lịch sử Premier League (41 bàn)?", a: ["John Terry", "David Unsworth", "Leighton Baines", "Gary Pallister"], c: 0, p: "50" }
+      { id: "9-12", q: "Hậu vệ ghi nhiều bàn thắng nhất lịch sử Premier League (41 bàn)?", a: ["John Terry", "David Unsworth", "Leighton Baines", "Gary Pallister"], c: 0, p: "50" },
       { id: "9-13", q: "Trọng tài rút nhiều thẻ đỏ nhất lịch sử PL?", a: ["Howard Webb", "Mike Dean", "Atkinson", "Clattenburg"], c: 1, p: "50" },
-      { id: "9-14", q: "HLV từng dẫn dắt nhiều CLB tại Premier League nhất lịch sử (9 CLB)?", a: ["Harry Redknapp", "Sam Allardyce", "Mark Hughes", "Roy Hodgson"], c: 1, p: "50" }
+      { id: "9-14", q: "HLV từng dẫn dắt nhiều CLB tại Premier League nhất lịch sử (9 CLB)?", a: ["Harry Redknapp", "Sam Allardyce", "Mark Hughes", "Roy Hodgson"], c: 1, p: "50" },
       { id: "9-15", q: "Đội bóng thủng lưới ít nhất một mùa giải (15 bàn)?", a: ["Man Utd", "Arsenal", "Chelsea", "Man City"], c: 2, p: "50" },
       { id: "9-16", q: "Sân vận động Elland Road là của đội nào?", a: ["Leeds United", "Sheffield Utd", "Hull City", "Middlesbrough"], c: 0, p: "50" },
       { id: "9-17", q: "Ai ghi nhiều hat-trick nhất lịch sử PL?", a: ["M. Baros", "Aguero", "Alnelka", "Henry"], c: 1, p: "50" },
       { id: "9-18", q: "Cầu thủ đoạt PFA xuất sắc nhất 3 lần?", a: ["Henry", "Ronaldo", "De Bruyne", "Chưa có ai"], c: 3, p: "50" },
       { id: "9-19", q: "CLB nào có biệt danh là 'The Black Cats' (Mèo đen)?", a: ["Sunderland", "Swansea", "Stoke", "Southampton"], c: 0, p: "50" },
-      { id: "9-20", q: "Cầu thủ ghi nhiều bàn nhất lịch sử ĐT Anh khi chơi tại PL?", a: ["Rooney", "Harry Kane", "Sheringham", "Owen"], c: 1, p: "50" }
+      { id: "9-20", q: "Cầu thủ ghi nhiều bàn nhất lịch sử ĐT Anh khi chơi tại PL?", a: ["Rooney", "Harry Kane", "Sheringham", "Owen"], c: 1, p: "50" },
   ],
   10: [
       { id: "10-1", q: "Đội bóng nào đã trụ hạng thành công với điểm số thấp nhất (32 điểm) trong một mùa?", a: ["West Brom", "Nottingham Forest", "Wigan", "Sunderland"], c: 1, p: "70" },
@@ -226,7 +226,7 @@ export const QUESTION_BANK: QuestionBank = {
       { id: "10-17", q: "Số lượng khán giả đông nhất lịch sử một trận đấu PL?", a: ["75.000", "83.222", "90.000", "60.000"], c: 1, p: "70" },
       { id: "10-18", q: "Cầu thủ duy nhất ghi hat-trick chỉ bằng đầu trong 1 trận?", a: ["Duncan Ferguson", "Salomon Rondon", "Peter Crouch", "Tim Cahill"], c: 1, p: "70" },
       { id: "10-19", q: "Đội bóng nắm giữ kỷ lục hòa nhiều trận nhất một mùa (17 trận)?", a: ["Aston Villa", "Newcastle", "Cả 2 đội trên", "Sunderland"], c: 2, p: "70" },
-      { id: "10-20", q: "Cầu thủ ghi bàn cuối cùng tại sân cũ Highbury của Arsenal?", a: ["Thierry Henry", "Pires", "Bergkamp", "Van Persie"], c: 0, p: "70" }
+      { id: "10-20", q: "Cầu thủ ghi bàn cuối cùng tại sân cũ Highbury của Arsenal?", a: ["Thierry Henry", "Pires", "Bergkamp", "Van Persie"], c: 0, p: "70" },
   ],
   11: [
       { id: "11-1", q: "HLV Mourinho lần đầu đến PL năm nào?", a: ["2002", "2003", "2004", "2005"], c: 2, p: "85" },
@@ -248,7 +248,7 @@ export const QUESTION_BANK: QuestionBank = {
       { id: "11-17", q: "Mùa giải cuối cùng có 22 đội tham dự PL trước khi rút xuống 20 đội?", a: ["92/93", "93/94", "94/95", "95/96"], c: 2, p: "85" },
       { id: "11-18", q: "Đội bóng giữ sạch lưới nhiều nhất một mùa giải (25 trận)?", a: ["Man Utd", "Arsenal", "Chelsea", "Liverpool"], c: 2, p: "85" },
       { id: "11-19", q: "Trận đấu có số bàn thắng nhiều nhất lịch sử PL là trận nào?", a: ["Portsmouth 7-4 Reading", "Man Utd 9-0 Soton", "Tottenham 9-1 Wigan", "Man City 8-0 Watford"], c: 0, p: "85" },
-      { id: "11-20", q: "Bàn thắng nhanh nhất lịch sử Premier League ghi ở giây thứ mấy?", a: ["7.69", "9.11", "10.2", "8.5"], c: 0, p: "85" }
+      { id: "11-20", q: "Bàn thắng nhanh nhất lịch sử Premier League ghi ở giây thứ mấy?", a: ["7.69", "9.11", "10.2", "8.5"], c: 0, p: "85" },
 ],
   12: [
       { id: "12-1", q: "Đội bóng nào vô địch nhưng không có bất kỳ cầu thủ nào trong đội hình hình tiêu biểu của mùa giải?", a: ["Man Utd", "Blackburn", "Aston Villa", "Norwich"], c: 0, p: "100" },
@@ -268,9 +268,9 @@ export const QUESTION_BANK: QuestionBank = {
       { id: "12-15", q: "Cặp bài trùng Kane và Son Heung-min đã kiến tạo cho nhau bao nhiêu bàn?", a: ["36", "40", "47", "50"], c: 2, p: "100" },
       { id: "12-16", q: "Cầu thủ ghi bàn đầu tiên cho Man Utd tại giải Premier League?", a: ["Mark Hughes", "Cantona", "Giggs", "Ince"], c: 0, p: "100" },
       { id: "12-17", q: "Ai nhận 3 thẻ đỏ trong một mùa giải duy nhất?", a: ["Dion Dublin", "Vinnie Jones", "Cả 2 người trên", "Cattermole"], c: 2, p: "100" },
-      { id: "12-18", q: "Trận đấu có nhiều thẻ vàng nhất lịch sử (14 thẻ) tính đến năm 2024?", a: ["Chelsea vs Spurs (2016)", "MU vs Arsenal (2003)", "Bournemouth vs Chelsea (2024)", "Tottenham vs Sheffield Utd (2023)"], c: 2, p: "100" }
+      { id: "12-18", q: "Trận đấu có nhiều thẻ vàng nhất lịch sử (14 thẻ) tính đến năm 2024?", a: ["Chelsea vs Spurs (2016)", "MU vs Arsenal (2003)", "Bournemouth vs Chelsea (2024)", "Tottenham vs Sheffield Utd (2023)"], c: 2, p: "100" },
       { id: "12-19", q: "Có cầu thủ nào ghi bàn ở Premier League trong 4 thập kỷ khác nhau?", a: ["Giggs", "James Milner", "Gareth Barry", "Chưa có ai"], c: 3, p: "100" },
-      { id: "12-20", q: "Những đội bóng nào chưa từng xuống hạng kể từ năm 1992?", a: ["Everton", "6 đội: ARS, CHE, EVE, LIV, MU, TOT", "Man City & MU", "Chỉ có Arsenal"], c: 1, p: "100" }
+      { id: "12-20", q: "Những đội bóng nào chưa từng xuống hạng kể từ năm 1992?", a: ["Everton", "6 đội: ARS, CHE, EVE, LIV, MU, TOT", "Man City & MU", "Chỉ có Arsenal"], c: 1, p: "100" },
   ],
 };
 
